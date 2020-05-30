@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica CSS: Escala de Mohs</title>
+    <style>
+      th {
+        font: italic bold large Monaco;
+      }
+      td,th {
+        border: 2px solid black;
+      }
+      tbody {
+        vertical-align: middle;
+        text-align: center;
+      }
+      #uno {
+        background-color: #FFFFFF;
+      }
+      #dos {
+        background-color: #E6E6E6;
+      }
+      #tres {
+        background-color: #CCCCCC;
+      }
+      #cuatro {
+        background-color: #B3B3B3;
+      }
+      #cinco {
+        background-color: #999999;
+      }
+      #seis {
+        background-color: #808080;
+      }
+      #siete {
+        background-color: #666666;
+        color: white;
+      }
+      #ocho {
+        background-color: #4C4C4C;
+        color: white;
+      }
+      #nueve {
+        background-color: #333333;
+        color: white;
+      }
+      #diez {
+        background-color: #000000;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vamos a mostrar la escala de Mohs</h1>
+    <h4>Incluiremos el degradado de fondo y una miniatura de cada mineral.</h4>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Dureza</th>
+            <th>Mineral</th>
+            <th>Imagen</th>
+            <th>Se raya con / raya a</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="uno">1</td>
+            <td>Talco</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TalcoEZ.jpg/280px-TalcoEZ.jpg" alt="Mineral de talco" width="100" height="100"></td>
+            <td>Se puede rayar fácilmente con la uña</td>
+          </tr>
+          <tr>
+            <td id="dos">2</td>
+            <td>Yeso</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Gips_-_Lubin%2C_Poland..jpg" alt="Mineral de yeso" width="100" height="100"></td>
+            <td>Se puede rayar con la uña con más dificultad</td>
+          </tr>
+          <tr>
+            <td id="tres">3</td>
+            <td>Calcita</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Calcite-67881.jpg/280px-Calcite-67881.jpg" alt="Calcita" width="100" height="100"></td>
+            <td>Se puede rayar con una moneda de cobre</td>
+          </tr>
+          <tr>
+            <td id="cuatro">4</td>
+            <td>Fluorita</td>
+            <td><img src="https://vivescortadaimport.com/diccionario-minerales/minerales/fluorita/mineral-fluorita.jpg" alt="Fluorita" width="100" height="100"></td>
+            <td>Se puede rayar con un cuchillo de acero</td>
+          </tr>
+          <tr>
+            <td id="cinco">5</td>
+            <td>Apatito</td>
+            <td><img src="https://www.regmurcia.com/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_114867&nombre=Apatito-02_res_300.jpg" alt="Apatito" width="100" height="100"></td>
+            <td>Se puede rayar difícilmente con un cuchillo</td>
+          </tr>
+          <tr>
+            <td id="seis">6</td>
+            <td>Ortosa</td>
+            <td><img src="https://www.rocasyminerales.net/wp-content/uploads/2018/03/Ortosa.jpg" alt="Ortosa" width="100" height="100"></td>
+            <td>Se puede rayar con una lija para el acero</td>
+          </tr>
+          <tr>
+            <td id="siete">7</td>
+            <td>Cuarzo</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Quartz%2C_Tibet.jpg/1200px-Quartz%2C_Tibet.jpg" alt="Cuarzo" width="100" height="100"></td>
+            <td>Raya el vidrio</td>
+          </tr>
+          <tr>
+            <td id="ocho">8</td>
+            <td>Topacio</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Topaz-k312b.jpg/245px-Topaz-k312b.jpg" alt="Topacio" width="100" height="100"></td>
+            <td>Rayado por herramientas de carburo de wolframio</td>
+          </tr>
+          <tr>
+            <td id="nueve">9</td>
+            <td>Corindón</td>
+            <td><img src="https://www.luisburillominerales.com/prestashop/39463-thickbox_default/corindon-policromo-rubi-zafiro-moscovita.jpg" alt="Corindón" width="100" height="100"></td>
+            <td>Rayado por herramientas de carburo de silicio</td>
+          </tr>
+          <tr>
+            <td id="diez">10</td>
+            <td>Diamante</td>
+            <td><img src="https://i.pinimg.com/originals/81/44/c2/8144c2862c9fc01b6ef15a831a73acde.gif" alt="Diamante" width="100" height="100"></td>
+            <td>El material más duro de la escala, rayado solo por otro diamante</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
